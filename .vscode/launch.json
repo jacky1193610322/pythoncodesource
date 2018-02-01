@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/python.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            // "miDebuggerPath": "/usr/local/bin/gdb",
+            "MIMode": "lldb",
+            "preLaunchTask": "python"　
+        }
+
+        // {
+        //     "name": "(lldb) Launch",
+        //     "type": "cppdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceRoot}/Parser/pgen",
+        //     "args": ["${workspaceRoot}/Grammar/Grammar", "${workspaceRoot}/tmp/gramceshi.h", "${workspaceRoot}/tmp/gramceshi.c"],
+        //     "stopAtEntry": false,
+        //     "cwd": "${workspaceRoot}",
+        //     "environment": [],
+        //     "externalConsole": true,
+        //     // "miDebuggerPath": "/usr/local/bin/gdb",
+        //     "MIMode": "lldb",
+        //     "preLaunchTask": "pgen"　
+        // }
+    ]
+}

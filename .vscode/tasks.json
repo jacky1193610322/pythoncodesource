@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+     "tasks": [
+        {
+            "taskName": "python",
+            "command": "make",
+            "args": [],
+            "isShellCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "pgen",
+            "command": "make",
+            "args": ["./Parser/pgen"],
+            "isShellCommand": true,
+            "showOutput": "always"
+        }
+    ]
+    // "command": "make Parser/pgen",
+    // "isShellCommand": true,
+    // "args": [],
+    // "showOutput": "always"
+}
